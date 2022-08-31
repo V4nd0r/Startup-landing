@@ -15,6 +15,10 @@ h1{
   color: #e2dbdb;
 }
 
+h2{
+  color: #e2dbdb;
+}
+
 hr {
     /*margin: 20px auto;
     color: #F05F44;
@@ -26,8 +30,16 @@ hr {
     max-width: 65px;
 }
 
+.form-label {
+  color: #e2dbdb;
+}
+
 .buffer {
   height: 10rem;
+}
+
+.form {
+  color: #e2dbdb;
 }
 
 .btn {
@@ -47,13 +59,29 @@ hr {
   border-width: 4px;
 }
 
-.btn-primary:onclick {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-}
 
 .btn-xl {
   padding: 1rem 2rem;
 }
 
+.btn-secondary {
+  background-color: #000000;
+  border-color: #f05f44;
+  border-width: 2px;
+}
+
+.btn-secondary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+a {
+  text-decoration-style: none;
+  color: #e2dbdb;
+}
+
+a:hover {
+  text-decoration-style: none;
+  color: #e2dbdb;
+}
